@@ -39,7 +39,15 @@ Vai retornar um array de objetos Json na seguinte estrutura
 
 ```
 
-Caso não tenha informações de valores para o período de datas solicitado o retorno vai ficar da seguinte forma. 
+Caso não tenha informações de valores para o período de datas solicitado o retorno vai ficar da seguinte forma.
+
+Exemplo de requisição que teve problema.
+```
+ {
+	"checkin": "25/02/2021",
+	"checkout": "27/02/2021"
+}
+```
 
 ```
 {
